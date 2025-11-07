@@ -4,7 +4,7 @@ Tutorial für AR Einstellungen auf Unity: youtube.com/watch?v=FWyTf3USDCQ&embeds
 Geänderte Begriffe für Version 6000.0.46f1:
 - Statt ARCore XR Plugin -> Google ARCore XR Plugin
 - Statt ARKit XR Plugin -> Apple ARKit XR Plugin
-- > Plugins und Buildsettings kommen ins .gitigrnore, so braucht jeder nur das passende für sein eigenes Smartphone einzurichten (also Android oder iOS)
+- > Plugins und Buildsettings kommen ins .gitignore, so braucht jeder nur das passende für sein eigenes Smartphone einzurichten (also Android oder iOS)
 - Build Einstellungen sind unter Build Profiles
 - Player Settins sind unter Services -> General Settings
 
