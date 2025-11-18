@@ -23,18 +23,21 @@ Wenn Hintergrund gelb ist:
 
 Jeder Entwickler muss diese Schritte auf seinem eigenen Rechner durchführen, um Git richtig zu konfigurieren.
 
-#### 4. UnityYAMLMerge-Pfad finden
+#### 1. Alternatives Merge-Tool installieren
+Das Programm `p4merge` installieren
 
-Suchen Sie das `UnityYAMLMerge`-Tool im Installationsordner Ihrer Unity-Version. Notieren Sie sich den vollständigen Pfad.
+#### 2. UnityYAMLMerge-Pfad finden
 
-* **Beispiel Windows:** `C:\Program Files\Unity\Editor\Data\Tools\UnityYAMLMerge.exe`
+Suchen das `UnityYAMLMerge`-Tool im Installationsordner deiner Unity-Version. Notieren dir den vollständigen Pfad.
+
+* **Beispiel Windows:** `C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Data\Tools\UnityYAMLMerge.exe`
 * **Beispiel macOS:** `/Applications/Unity/Editor/Data/Tools/UnityYAMLMerge`
 
-#### 5. Git-Merge-Tool konfigurieren
+#### 3. Git-Merge-Tool konfigurieren
 
-Öffnen Sie Ihr Terminal (Git Bash/Kommandozeile) und führen Sie die folgenden drei Befehle aus. **Ersetzen Sie dabei `<path to UnityYAMLMerge>` durch den in Schritt 4 gefundenen Pfad.**
+Öffnen das Terminal (Git Bash!) und führen die folgenden drei Befehle aus. **Ersetzen Sie dabei `<path to UnityYAMLMerge>` durch den in Schritt 4 gefundenen Pfad.**
 
-* *Hinweis: Wenn Ihr Pfad Leerzeichen enthält (wie im Windows-Beispiel), müssen Sie Anführungszeichen verwenden!*
+* *Hinweis: Wenn dein Pfad Leerzeichen enthält (wie im Windows-Beispiel), musst du Anführungszeichen verwenden!*
 
 ```bash
 # 1. Definiert, welches Programm für den Treiber 'unityyamlmerge' gestartet wird.
